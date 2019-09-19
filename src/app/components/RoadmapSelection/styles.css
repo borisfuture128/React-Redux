@@ -1,0 +1,57 @@
+.rotated {
+  position:absolute;
+  width:400px;
+  height: 100px;
+  transform: rotate(90deg); /* Equal to rotateZ(45deg) */
+}
+.img{
+  position: absolute;
+  left: 339px;
+  top: -73px;
+}
+.activeDotHide{
+  display:none;
+}
+.activeDotShow{
+  display:block;
+}
+.text{
+  text-align: right;
+  color:white;
+}
+.activetext{
+  text-align: right;
+  color:white;
+  font-weight:bold;
+}
+.span1{
+  font-size:25px;
+  font-family:Montserrat Regular,sans-serif;
+}
+.span2{
+  font-size:15px;
+  font-family:Montserrat Regular,sans-serif;
+}
+
+/*-----------------------------------------------  styles according to screen ------------------------------------*/
+@media only screen and (max-width: 1200px) {
+
+}
+
+@media only screen and (max-width: 992px) {
+  .img{
+    position: absolute;
+    left: 339px;
+    top: -73px;
+  }
+  .span1{
+    font-size:20px;
+  }
+  .span2{
+    font-size:11px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+
+}

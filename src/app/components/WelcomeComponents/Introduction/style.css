@@ -1,0 +1,82 @@
+.introSection {
+  background: none;
+  min-height: 960px;
+}
+
+.introSection .skilltechtypetext {
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 76px;
+  line-height: 90px;
+}
+
+.particleContainer {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
+.title {
+  position:absolute;
+  top: -37px;
+  width: 100%;
+  margin: auto;
+  font-family: Montserrat-ExtraBold, serif;
+  font-size: 8.3em;
+  color: #52193a;
+  font-weight: bold;
+  opacity: 0.31;
+  z-index: -1;
+  background: -webkit-linear-gradient(0deg, rgba(0, 11, 115, 0.4), rgba(255, 120, 0, 0.2));
+  background: linear-gradient(0deg, rgba(0, 11, 115, 0.4), rgba(255, 120, 0, 0.2));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.robotoLight {
+  font-family: Roboto;
+  font-weight: 100;
+}
+
+.introWaveClass {
+  position: absolute;
+  left: 0;
+}
+
+@media only screen and (max-width: 1200px) {
+  .title {
+    font-size: 6.3em;
+  }
+
+  .pos_title {
+    top: 157px !important;;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+ .title {
+   font-size: 5.3em;
+ }
+  .pos_title {
+    top: 169px !important;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .title {
+    font-size: 2.5em;
+    top: -5px;
+  }
+  .pos_title {
+    top: 190px !important;;
+  }
+}
+
+.scrollIndicator {
+  bottom: 40px;
+  position: absolute;
+  margin: auto;
+  left: 0;
+  right: 0;
+}

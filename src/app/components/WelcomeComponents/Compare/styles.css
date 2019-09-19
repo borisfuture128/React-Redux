@@ -1,0 +1,243 @@
+.title {
+  position: relative;
+  color: #52193a;
+  font-family: Montserrat, sans-serif;
+  font-size: 13.5em;
+  font-weight:bold;
+  line-height: 1;
+  width: 100%;
+  text-align: center;
+  background: -webkit-linear-gradient(298deg, rgba(249, 69, 38, 0.3), rgba(1, 12, 111, 0.4));
+  background: linear-gradient(298deg, rgba(249, 69, 38, 0.3), rgba(1, 12, 111, 0.4));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.subTitle {
+  position: absolute;
+  text-align: center;
+  width: 100%;
+  top: 43px;
+  font-size: 8.2em;
+  font-weight: bold;
+  color:white;
+  font-family: Montserrat, sans-serif;
+  line-height: 1;
+}
+
+.sectionDescription {
+  font-family: Roboto, sans-serif;
+}
+
+.joinTitle {
+  position: absolute;
+  width: 100%;
+  left: 0;
+  font-family: Montserrat-ExtraBold, sans-serif;
+  font-size: 14.3em;
+  font-weight:bold;
+  line-height: 1;
+  text-align: center;
+  opacity: 0.6;
+  z-index: -1;
+  background: -webkit-linear-gradient(78deg, rgba(249, 69, 38, 0.4), rgba(1, 10, 96, 0.2));
+  background: linear-gradient(78deg, rgba(249, 69, 38, 0.4), rgba(1, 10, 96, 0.2));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.investmentSection {
+  padding-top: 110px;
+}
+
+.joinsubTitle {
+  text-align: center;
+  font-size: 4.0em;
+  line-height: 1;
+  font-family: Montserrat-ExtraBold, sans-serif,sans-serif;
+  width: 100%;
+  padding-top: 76px;
+}
+
+.particleContainer {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  margin-top: -146px;
+  z-index: -1;
+}
+.glowImg {
+  position: absolute;
+  right: 0;
+  margin-top: -146px;
+  opacity: 0.3;
+}
+
+.compareStats {
+  font-family: Montserrat-ExtraBold, sans-serif;
+  text-align: left;
+  font-size: 3em;
+  color: #fff;
+}
+
+@media only screen and (max-width: 1200px) {
+  .title {
+    font-size: 8.5em;
+  }
+  .subTitle {
+    font-size: 80px;
+  }
+  .joinTitle {
+    font-size: 13.0em;
+  }
+  .joinsubTitle {
+    font-size: 3.9em;
+  }
+  .compareStats {
+    font-size: 2.5em;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .title {
+    font-size: 6.5em;
+    top: -40px;
+  }
+  .subTitle {
+    font-size: 64px;
+    top: -20px;
+  }
+  .joinTitle {
+    font-size: 9.0em;
+  }
+  .joinsubTitle {
+    font-size: 2.9em;
+    padding-top: 55px;
+  }
+  .compareStats {
+    font-size: 2.0em;
+  }
+  .joinBlockSubImg, .joinBlockHoldTop, .joinBlockHoldBottom {
+    width: 80%;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .title {
+    font-size: 4.7em;
+    top: -50px;
+  }
+  .subTitle {
+    font-size: 45px;
+    top: -40px;
+  }
+  .joinTitle {
+    font-size: 9.0em;
+  }
+  .joinsubTitle {
+    font-size: 2.9em;
+    padding-top: 55px;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .title {
+    font-size: 2.7em;
+    top: -50px;
+  }
+  .subTitle {
+    font-size: 35px;
+    top: -40px;
+  }
+  .joinTitle {
+    font-size: 4.3em;
+  }
+  .joinsubTitle {
+    font-size: 2.2em;
+    padding-top: 17px;
+  }
+}
+
+
+.joinBlockImg {
+  height: 112px;
+  width: 112px;
+  margin-bottom: 25px;
+}
+.joinBlockTitle {
+  font-family: Montserrat-ExtraBold, sans-serif;
+  font-size: 2.3em;
+  margin-bottom: 25px;
+  color: #fff;
+}
+.joinBlockSubtitle {
+  font-family: Montserrat Light, sans-serif;
+  font-size: 1.5em;
+  font-weight: lighter;
+  color: #fff;
+  position: relative;
+  line-height: 1;
+}
+.joinBlockSubImg {
+  margin: 0 auto;
+  margin-top: 47px;
+  margin-bottom: 15px;
+}
+
+.joinBlockHoldTop {
+  margin: 0 auto;
+  margin-top: 40px;
+  margin-bottom: 2px;
+}
+
+.joinBlockHoldBottom {
+  margin: 0 auto;
+  margin-top: 43px;
+  margin-bottom: 25px;
+}
+
+.joinEllipse {
+  position: absolute;
+  bottom: -150px;
+  left: 0;
+  margin: 0 auto;
+  width: 100%;
+  opacity: 0.6;
+  z-index: -1;
+}
+
+.margin_top_18px {
+  margin-top: 0px;
+  padding-top: 42px;
+  margin-bottom: 25px;
+}
+
+.margin_top_18px img {
+  width: 41px !important;
+  height: 41px !important;
+  margin: auto auto;
+}
+
+.compareStatsCloud {
+  position: absolute;
+  left: -36px;
+  top: -40px;
+  width: 90%;
+  z-index: -1;
+}
+
+.joinCloud1 {
+  z-index: -1;
+  width: 25%;
+  margin-left:25%;
+  display: block;
+  min-height: 1px;
+}
+
+.joinCloud2 {
+  z-index: -1;
+  width: 25%;
+  margin-left:50%;
+  display: block;
+  min-height: 1px;
+}

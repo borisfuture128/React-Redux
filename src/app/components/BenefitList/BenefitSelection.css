@@ -1,0 +1,87 @@
+.container {
+  position: relative;
+  margin-bottom: 40px;
+  padding-left: 110px;
+  width: 100%;
+  cursor: pointer;
+}
+
+.container_img {
+  position: absolute;
+  left: 10px;
+  padding: 0 5px 0 5px;
+  width: 90px;
+}
+
+.container_img img {
+  width: 100%;
+  height: 100%;
+}
+.active.container_img:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-image: linear-gradient(to bottom right, #002f4b, #dc4225);
+  opacity: .6;
+}
+
+.title{
+  font-family: "Montserrat Regular",sans-serif;
+  font-size: 1.8em;
+  font-weight: normal;
+  color: #fff;
+  text-align: left;
+}
+
+.title_active {
+  background: -webkit-linear-gradient(#f94526, #ff7800);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.sub_title {
+  font-family: Roboto, sans-serif;
+  font-size: 1.1em;
+  color: white;
+  text-align: left;
+}
+
+@media only screen and (max-width: 1200px) {
+  .title {
+    font-size: 1.3em;
+  }
+  .subTitle {
+    font-size: 80px;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .title {
+    font-size: 1.1em;
+  }
+  .subTitle {
+    font-size: 64px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .title {
+    font-size: 1.1em;
+  }
+  .subTitle {
+    font-size: 45px;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .title {
+    font-size: 0.9em;
+  }
+  .subTitle {
+    font-size: 25px;
+    top: -40px;
+  }
+}

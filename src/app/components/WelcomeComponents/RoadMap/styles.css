@@ -1,0 +1,386 @@
+/*--------------------------- RoadMap section style ----------------------------*/
+.roadmapTitle{
+  position:absolute;
+  top: 20px;
+  left: 100px;
+  font-family: Montserrat-ExtraBold, serif;
+  font-size: 164px;
+  color: rgba(249,69,38,0.3);
+  font-weight: bold;
+  opacity:0.17;
+  background: -webkit-linear-gradient(-78deg, rgba(249,69,38,0.3),rgba(1,10,96,0.2));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.roadmapSubTitle{
+  position:absolute;
+  top: 95px;
+  left: 125px;
+  font-size:70px;
+  font-weight:bold;
+  font-family:Montserrat-ExtraBold, serif;
+  color:white;
+}
+.subTitleDetail{
+  width: 600px;
+  position: absolute;
+  top: 180px;
+  left: 135px;
+  font-size: 23px;
+  color: #fff;
+  text-align: left;
+  font-family:Roboto Regular, sans-serif;
+}
+
+.arrowDiv{
+  display:none;
+  margin-top:120px;
+}
+
+.carousel{
+  width:800px;
+  height: 300px;
+  margin-top:350px;
+  margin-left:0px;
+  margin-bottom:80px;
+}
+
+.line_dot_Div{
+  margin-left:-40px;
+}
+
+.roadmap_line_new{
+  margin-top:100px;
+}
+
+.dotDiv{
+  position: absolute;
+  top: 270px;
+  left: -29px;
+}
+
+.roadDiv{
+  color:white;
+  text-align: left;
+  margin-top:400px;
+  margin-left:50px;
+}
+.roadDetailTitle{
+  font-size:45px;
+  font-family:Montserrat-ExtraBold, serif;
+  width:700px;
+}
+/*.roadDetailDate{*/
+  /*font-size:16px;*/
+  /*font-family:Roboto-Medium, serif;*/
+  /*font-style: italic;*/
+/*}*/
+.roadDetails{
+  margin-top:10px;
+  font-family:Roboto, sans-serif;
+  font-size:18px;
+}
+.roadmap_cloud{
+  width:50%;
+  position: absolute;
+  top: 100px;
+  right: 150px;
+  z-index: -1;
+}
+
+
+/*-----------------------------------------------  styles according to screen ------------------------------------*/
+@media only screen and (max-width: 1730px) {
+  .roadmap_cloud{
+    top: 150px;
+    right: 10px;
+  }
+}
+
+@media only screen and (max-width: 1670px) {
+  .roadmap_cloud{
+    top: 150px;
+    right: 100px;
+  }
+}
+
+@media only screen and (max-width: 1530px) {
+  .roadmap_cloud{
+    top: 150px;
+    right: 40px;
+  }
+}
+
+@media only screen and (max-width: 1440px) {
+  .roadDetailTitle{
+    font-size:42px;
+    width:650px;
+  }
+}
+
+@media only screen and (max-width: 1400px) {
+  .roadmap_cloud{
+    top: 200px;
+    right: 40px;
+  }
+  .roadDetailTitle{
+    font-size:42px;
+    width:600px;
+  }
+}
+
+@media only screen and (max-width: 1300px) {
+  .roadmap_cloud{
+    top: 220px;
+    right: 40px;
+  }
+  .roadDetailTitle{
+    font-size:40px;
+    width:530px;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .roadmapTitle {
+    font-size: 8em;
+  }
+  .roadmapSubTitle{
+    top: 70px;
+    left: 120px;
+    font-size: 60px;
+  }
+  .subTitleDetail{
+    width: 600px;
+    position: absolute;
+    top: 140px;
+    left: 130px;
+    font-size: 23px;
+    color: #fff;
+    text-align: left;
+  }
+  .roadRow{
+    margin-right:-100px;
+    margin-top: -125px;
+  }
+  .roadDiv{
+    margin-top: 250px;
+  }
+  .roadmap_line_new{
+    margin-left:0px;
+    height: 700px;
+    margin-top: 150px;
+  }
+  .dotDiv{
+    position: absolute;
+    top: 270px;
+    left: -31px;
+  }
+  .roadDetailTitle{
+    font-size:38px;
+    width:450px;
+  }
+  .roadmap_cloud{
+    top: 180px;
+    right: 0px;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .roadmapTitle {
+    left: 80px;
+    top: 6px;
+    font-size: 7em;
+  }
+  .roadmapSubTitle{
+    top: 50px;
+    left: 100px;
+    font-size: 50px;
+  }
+  .subTitleDetail{
+    width: 500px;
+    position: absolute;
+    top: 120px;
+    left: 100px;
+    font-size: 20px;
+    color: #fff;
+    text-align: left;
+  }
+  .roadCol6{
+    display:none;
+  }
+  .arrowDiv{
+    display:block;
+  }
+  .roadmap_line_new{
+    display:none;
+  }
+  .roadDiv{
+    margin-top: 80px;
+    width: 500px;
+    height:200px;
+  }
+  .roadDetailTitle{
+    font-size:40px;
+  }
+  .roadmap_cloud{
+    top: 70px;
+    right: 100px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .roadmapTitle {
+    top:0px;
+    left:10px;
+    font-size: 4em;
+  }
+  .roadmapSubTitle{
+    top: 25px;
+    left: 25px;
+    font-size: 30px;
+  }
+  .subTitleDetail{
+    width: 300px;
+    position: absolute;
+    top: 70px;
+    left: 25px;
+    font-size: 15px;
+    color: #fff;
+    text-align: left;
+  }
+  .carousel{
+    display:none;
+  }
+  .roadmap_line_new{
+    display:none;
+  }
+  .roadDiv{
+    width:250px;
+    margin-left:0px;
+    height:300px;
+  }
+  .roadDetailTitle{
+    font-size: 21px;
+    font-family: Montserrat-ExtraBold,serif;
+    width: 250px;
+  }
+  .roadDetails{
+    font-size:17px;
+  }
+  .roadmap_cloud{
+    top: 100px;
+    right: 100px;
+  }
+}
+
+@media only screen and (max-width: 395px) {
+  .roadmapTitle {
+    top:0px;
+    left:10px;
+    font-size: 3.8em;
+  }
+  .roadmapSubTitle{
+    top: 25px;
+    left: 25px;
+    font-size: 30px;
+  }
+}
+
+
+@media only screen and (max-width: 375px) {
+  .roadmapTitle {
+    top:0px;
+    left:10px;
+    font-size: 3.3em;
+  }
+  .roadmapSubTitle{
+    top: 20px;
+    left: 25px;
+    font-size: 26px;
+  }
+  .subTitleDetail{
+    width: 300px;
+    position: absolute;
+    top: 70px;
+    left: 25px;
+    font-size: 15px;
+    color: #fff;
+    text-align: left;
+  }
+  .carousel{
+    display:none;
+  }
+  .roadmap_line_new{
+    display:none;
+  }
+  .roadDiv{
+    width:250px;
+    margin-left:0px;
+    height:300px;
+  }
+  .roadDetailTitle{
+    font-size: 21px;
+    font-family: Montserrat-ExtraBold,serif;
+    width: 250px;
+  }
+  .roadDetails{
+    font-size:17px;
+  }
+  .roadmap_cloud{
+    top: 160px;
+    right: 100px;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .roadmapTitle {
+    top:0px;
+    left:10px;
+    font-size: 3.2em;
+  }
+  .roadmapSubTitle{
+    top: 20px;
+    left: 25px;
+    font-size: 26px;
+  }
+  .subTitleDetail{
+    width: 265px;
+    position: absolute;
+    top: 70px;
+    left: 25px;
+    font-size: 14px;
+    color: #fff;
+    text-align: left;
+  }
+  .carousel{
+    display:none;
+  }
+  .roadmap_line_new{
+    display:none;
+  }
+  .roadDiv{
+    width:240px;
+    margin-left:0px;
+    height:300px;
+  }
+  .roadDetailTitle{
+    font-size: 21px;
+    font-family: Montserrat-ExtraBold,serif;
+    width: 230px;
+  }
+  .roadDetails{
+    font-size:14px;
+    width:200px;
+  }
+  .roadmap_cloud{
+    top: 170px;
+    right: 100px;
+  }
+}
+
+/* ============================= title opacity ================*/
+@media only screen and (max-width: 800px) {
+  .roadmapTitle{
+    opacity:0.6 !important;
+  }
+}

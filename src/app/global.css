@@ -1,0 +1,606 @@
+
+#app {
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 14px;
+  line-height: 1.42857143;
+  color: #333;
+  background-color: #000131;
+}
+
+.cloud-parallax-img {
+  margin-top:100px;
+  overflow: visible;
+  width: 100% !important;
+  height: auto !important;
+  left:0;
+}
+
+.cloud-parallax {
+  overflow: visible !important;
+}
+
+#join_section {
+  margin-top:150px;
+}
+body {
+  background-color: #000131;
+}
+h1, h2, h3, h4 {
+  font-family: Montserrat,sans-serif;
+}
+
+p {
+  font-family: Roboto, sans-serif;
+}
+
+button:focus {
+  outline: none;
+}
+input:focus{
+  outline: none;
+}
+input::-webkit-input-placeholder {
+  font-style:italic;
+}
+
+input:-ms-input-placeholder {
+  font-style:italic;
+}
+
+input:-moz-placeholder {
+  font-style:italic;
+}
+
+input::-moz-placeholder {
+  font-style:italic;
+}
+
+.hover12 figure .top{
+  position: absolute;
+  left: 0;
+  opacity: 0.0;
+}
+
+.hover12 figure .bottom{
+  opacity: 1.0;
+}
+
+.hover12 figure img {
+  opacity: 1;
+  width: 100%;
+  -webkit-transition: .5s ease-in-out;
+  transition: .5s ease-in-out;
+  vertical-align: middle;
+}
+
+.hover12 figure:hover img.top {
+  opacity: 1.0;
+}
+
+.hover12 figure:hover img.bottom{
+  opacity: 0.0;
+}
+
+.hover12 figure {
+  cursor: pointer;
+}
+
+/*
+.hover12 figure:hover {
+  -webkit-animation-name: hvr-wobble-horizontal;
+  animation-name: hvr-wobble-horizontal;
+  -webkit-animation-duration: 0.5s;
+  animation-duration: 0.5s;
+  -webkit-animation-timing-function: ease-in-out;
+  animation-timing-function: ease-in-out;
+  -webkit-animation-iteration-count: 1;
+  animation-iteration-count: 1;
+}
+*/
+.hover12 figure:hover {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+  -webkit-transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
+  transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
+}
+
+.hover12 figure {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px transparent;
+  -webkit-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+}
+
+/* Wobble Horizontal */
+@-webkit-keyframes hvr-wobble-horizontal {
+  16.65% {
+    -webkit-transform: translateX(8px);
+    transform: translateX(8px);
+  }
+  33.3% {
+    -webkit-transform: translateX(-6px);
+    transform: translateX(-6px);
+  }
+  49.95% {
+    -webkit-transform: translateX(4px);
+    transform: translateX(4px);
+  }
+  66.6% {
+    -webkit-transform: translateX(-2px);
+    transform: translateX(-2px);
+  }
+  83.25% {
+    -webkit-transform: translateX(1px);
+    transform: translateX(1px);
+  }
+  100% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+  }
+}
+@keyframes hvr-wobble-horizontal {
+  16.65% {
+    -webkit-transform: translateX(8px);
+    transform: translateX(8px);
+  }
+  33.3% {
+    -webkit-transform: translateX(-6px);
+    transform: translateX(-6px);
+  }
+  49.95% {
+    -webkit-transform: translateX(4px);
+    transform: translateX(4px);
+  }
+  66.6% {
+    -webkit-transform: translateX(-2px);
+    transform: translateX(-2px);
+  }
+  83.25% {
+    -webkit-transform: translateX(1px);
+    transform: translateX(1px);
+  }
+  100% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+  }
+}
+.hvr-wobble-horizontal {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px transparent;
+}
+/*
+#1. Introduction Section
+*/
+
+header #st-logo {
+  top: 30px;
+}
+
+header #st-logo img {
+  width: 95px;
+}
+@media only screen and (max-width: 992px) {
+  header #st-logo {
+    padding-top: 50px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  header #st-logo img {
+    width: 100px;
+  }
+}
+
+.skilltechtypetext {
+  font-family: Montserrat-ExtraBold, sans-serif;
+}
+@media only screen and (max-width: 767px){
+  .hero-section-video-dark .headlines-wrapper {
+    top: 280px;
+  }
+}
+
+/*
+************
+
+Night Sky with twinkling Star
+
+
+************
+*/
+
+/* ==============================================================================================
+Nick Mkrtchyan
+https://www.facebook.com/sonick.pk
+http://www.Mkrtchyan.zz.mu
+================================================================================================= */
+
+@keyframes move-twink-back {
+  from {background-position:0 0;}
+  to {background-position:-10000px 5000px;}
+}
+@-webkit-keyframes move-twink-back {
+  from {background-position:0 0;}
+  to {background-position:-10000px 5000px;}
+}
+@-moz-keyframes move-twink-back {
+  from {background-position:0 0;}
+  to {background-position:-10000px 5000px;}
+}
+@-ms-keyframes move-twink-back {
+  from {background-position:0 0;}
+  to {background-position:-10000px 5000px;}
+}
+
+@keyframes move-clouds-back {
+  from {background-position:0 0;}
+  to {background-position:10000px 0;}
+}
+@-webkit-keyframes move-clouds-back {
+  from {background-position:0 0;}
+  to {background-position:10000px 0;}
+}
+@-moz-keyframes move-clouds-back {
+  from {background-position:0 0;}
+  to {background-position:10000px 0;}
+}
+@-ms-keyframes move-clouds-back {
+  from {background-position: 0;}
+  to {background-position:10000px 0;}
+}
+
+.stars, .twinkling, .clouds {
+  position:absolute;
+  top:0;
+  left:0;
+  right:0;
+  bottom:0;
+  width:100%;
+  height:100%;
+  display:block;
+  z-index: -10;
+}
+
+.stars {
+  background:#000 url(../assets/images/stars.png) repeat top center;
+  z-index:-2;
+}
+
+.twinkling{
+  background:transparent url(../assets/images/twinkling.png) repeat top center;
+  z-index:-1;
+
+  -moz-animation:move-twink-back 1200s linear infinite;
+  -ms-animation:move-twink-back 1200s linear infinite;
+  -o-animation:move-twink-back 1200s linear infinite;
+  -webkit-animation:move-twink-back 1200s linear infinite;
+  animation:move-twink-back 1200s linear infinite;
+}
+
+.clouds{
+  background:transparent url(../assets/images/clouds3.jpg) repeat top center;
+  z-index:-3;
+
+  -moz-animation:move-clouds-back 600s linear infinite;
+  -ms-animation:move-clouds-back 600s linear infinite;
+  -o-animation:move-clouds-back 600s linear infinite;
+  -webkit-animation:move-clouds-back 600s linear infinite;
+  animation:move-clouds-back 600s linear infinite;
+}
+/*
+*/
+.st-nav-trigger {
+  opacity: 0.8 !important;
+}
+/*
+==========================================
+ */
+/*
+#2. Our Benefits Section
+ */
+.benefits_section {
+  padding-bottom: 146px;
+  background: url('../assets/images/our_benefits.jpg') no-repeat center;
+  background-size: cover;
+}
+.benefits_section p {
+  margin-left: 2px;
+}
+.subtitle_description {
+  font-family: Roboto,sans-serif;
+  font-size: 20px;
+}
+@media only screen and (max-width: 992px) {
+  .benefits {
+    position: relative;
+    top: 140px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .benefits {
+    position: relative;
+    top: 120px;
+  }
+}
+@media only screen and (max-width: 576px) {
+  .benefits {
+    position: relative;
+    top: 130px;
+  }
+}
+.bounce-enter {
+  -webkit-animation-name: fadeInRight;
+  animation-name: fadeInRight;
+}
+.bounce-enter.bounce-enter-active {
+
+}
+.bounce-leave {
+  -webkit-animation-name: fadeOutRight;
+  animation-name: fadeOutRight;
+}
+.bounce-leave.bounce-leave-active {
+
+}
+
+/*
+#3. Compare Section
+ */
+.compare_section {
+  /*background: url('../assets/images/compare_bkg.png') no-repeat top;*/
+  background: none;
+  z-index: 1;
+}
+@media only screen and (max-width: 992px) {
+  .compare_section .container {
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+}
+
+/*
+#4. Join section
+ */
+/*==== Mouse Hover Effect =====*/
+.hi-icon-effect-5 .hi-icon {
+  box-shadow: 0 0 0 4px rgba(255,255,255,1);
+  overflow: hidden;
+  -webkit-transition: background 0.3s, color 0.3s, box-shadow 0.3s;
+  -moz-transition: background 0.3s, color 0.3s, box-shadow 0.3s;
+  transition: background 0.3s, color 0.3s, box-shadow 0.3s;
+}
+
+.hi-icon-effect-5 .hi-icon:hover {
+  background: rgba(255,255,255,1);
+  color: #702fa8;
+  box-shadow: 0 0 0 8px rgba(255,255,255,0.3);
+}
+
+/*==================================== Team and Connect Section =================================*/
+.team_connect{
+  height: auto;
+  width: 100%;
+  background: url("../assets/images/team_connect_bg.png") no-repeat;
+  background-size: cover;
+  text-align: left;
+  position: relative;
+  padding-top: 160px;
+  padding-bottom: 50px;
+}
+/*==================================== RoadMap and WhitePaper Section =================================*/
+.roadmap_whitepaper{
+  background: none;
+  z-index: 1;
+}
+
+/*#dot_down:active, #dot_up:active{*/
+  /*-webkit-transition: all 300ms ease-in;*/
+  /*-webkit-transform: scale(0.9);*/
+  /*background:url('../assets/images/bright_dot.png') no-repeat;*/
+/*}*/
+#dot_up{
+  width:150px;
+  height:150px;
+  background:url('../assets/images/dot.png') no-repeat;
+}
+#dot_down{
+  width:150px;
+  height:150px;
+  background:url('../assets/images/dot.png') no-repeat;
+  position: relative;
+  top: 150px;
+}
+
+#dot_bright{
+  width:150px;
+  height:150px;
+  background:url('../assets/images/bright_dot.png') no-repeat;
+  position:relative;
+  top:-150px;
+}
+
+#dot_up:hover{
+  background:url('../assets/images/bright_dot.png') no-repeat;
+}
+#dot_down:hover{
+  background:url('../assets/images/bright_dot.png') no-repeat;
+}
+
+#dot_up:hover ~ #dot_bright {
+  background:url('../assets/images/dot.png') no-repeat;
+}
+#dot_down:hover ~ #dot_bright {
+  background:url('../assets/images/dot.png') no-repeat;
+}
+
+@media only screen and (max-width: 1200px) {
+
+}
+
+@media only screen and (max-width: 992px) {
+  .call-to-section{
+    padding-top:146px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+
+}
+
+
+/*======================================== WhitePaper Section ===============*/
+
+#downbutton:hover{
+  color:darkblue;
+  background:white;
+}
+
+/*================================ Footer Section ==================*/
+footer p {
+  font-size: unset !important;
+}
+
+footer {
+  height:320px !important;
+}
+
+@media only screen and (max-width: 576px) {
+  footer {
+    height:720px !important;
+  }
+}
+@media only screen and (max-width: 320px) {
+  footer {
+    height:750px !important;
+  }
+}
+
+/*========================================= Roadmap Section ==================*/
+#button_left{
+  position: absolute;
+  width:200px;
+  height:200px;
+  -webkit-transform: scale(0.7);
+}
+
+#button_left:hover{
+  -webkit-transition: all 300ms ease-in;
+  -webkit-transform: scale(0.9);
+}
+
+#button_right{
+  position: absolute;
+  left:130px;
+  width:200px;
+  height:200px;
+  -webkit-transform: scale(0.7);
+}
+
+#button_right:hover{
+  -webkit-transition: all 300ms ease-in;
+  -webkit-transform: scale(0.9);
+}
+
+
+.rotatedDiv:hover > img{
+  display:block;
+}
+
+#arrow_up:hover{
+  -webkit-transition: all 300ms ease-in;
+  -webkit-transform: scale(1.1);
+  /*background:url('../assets/images/arrow_up_glow.png') no-repeat;*/
+}
+
+#arrow_down:hover{
+  -webkit-transition: all 300ms ease-in;
+  -webkit-transform: scale(1.1);
+  /*background:url('../assets/images/arrow_down_glow.png') no-repeat;*/
+}
+
+
+/*========================================= Join Section ===================================*/
+/*#join_section{*/
+  /*background:#020a3e;*/
+/*}*/
+
+/*================================== nesletter signup ====================================*/
+
+#hbspt-form-1522078734157-1596341294{
+  display:inline;
+}
+
+#label-email-ba8d0f4b-f507-4750-a97c-cfc2e0b95c37{
+  display:none;
+}
+
+#email-ba8d0f4b-f507-4750-a97c-cfc2e0b95c37{
+  border-radius: 50px;
+  height: 36px;
+  background: transparent;
+  padding-left: 13px;
+  color: #fff;
+  margin-right:10px;
+  width: 380px;
+}
+@media only screen and (max-width: 992px) {
+  #email-ba8d0f4b-f507-4750-a97c-cfc2e0b95c37{
+    width: 320px;
+  }
+}
+@media only screen and (max-width: 320px) {
+  #email-ba8d0f4b-f507-4750-a97c-cfc2e0b95c37{
+    width: 280px;
+  }
+}
+.hs_email{
+  display:inline-block;
+}
+.hs_submit{
+  display:inline-block;
+  margin-left:10px;
+}
+
+.hs-button{
+  background: transparent;
+  color: white;
+  border: solid #a24a26 2px;
+  border-radius: 50px;
+  padding: 3px 30px;
+}
+.hs-button:active{
+  border-color:#FF4741;
+}
+.hs-button:hover{
+  border-color:#FF4741;
+}
+@media only screen and (max-width: 750px) {
+  .hs-form{
+    text-align:center;
+  }
+  .hs-submit{
+    margin-top:15px;
+  }
+  .signInputContainer{
+    padding-right:0px !important;
+  }
+}
+
+/* === network section ======*/
+.miningpoolDiv{
+  margin-top:10px !important;
+}
+
+@media only screen and (max-width: 992px) {
+  .miningpoolDiv{
+    margin-top:5px !important;
+  }
+}

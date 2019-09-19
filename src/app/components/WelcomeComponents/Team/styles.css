@@ -1,0 +1,266 @@
+/* -------------------------------------------------- team section style --------------------------------------------------*/
+.teamTitle{
+  position:absolute;
+  top: -10px;
+  left: 100px;
+  font-family: Montserrat-ExtraBold, serif;;
+  font-size: 170px;
+  color: rgba(249,69,38,0.2);
+  font-weight: bold;
+  opacity:0.17;
+  background: -webkit-linear-gradient(-67deg, rgba(249,69,38,0.2),rgba(249,69,38,0.2), rgba(0,8,86,0.2), rgba(0,8,86,0.2));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.teamSubTitle{
+  position:absolute;
+  top: 70px;
+  left: 150px;
+  font-size:75px;
+  font-weight:bold;
+  font-family:Montserrat-ExtraBold, serif;
+  color:white;
+}
+
+.teamDetail{
+  position: absolute;
+  top: 82px;
+  left:450px;
+  width: 800px;
+  color: #fff;
+  font-size: 27px;
+  text-align: left;
+}
+
+.profileContainer{
+  margin-top:90px;
+  margin-bottom: 200px;
+}
+
+.profile{
+  margin-bottom:50px;
+}
+
+.detail{
+  padding-top:30px;
+  padding-left:10%;
+  padding-right:11%;
+  text-align: left;
+}
+
+.name{
+  font-size:26px;
+  font-weight:bold;
+  color:white;
+}
+
+.seo{
+  font-size:24px;
+  color:white;
+}
+
+.description{
+  font-size:16px;
+  color:white;
+}
+
+.imgCircle{
+  border-radius:50%;
+  z-index:1;
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
+}
+
+.teamIn{
+  position:absolute;
+  z-index: 1;
+  top: 145px;
+  left: 148px;
+}
+
+/* --------------------------------------- team style according to screen size -------------------------------------------------*/
+@media only screen and (max-width: 1200px) {
+  .teamTitle {
+    font-size: 8em;
+  }
+  .teamSubTitle{
+    top: 45px;
+    left: 135px;
+    font-size:60px;
+  }
+  .teamDetail{
+    top: 55px;
+    left: 350px;
+    width: 660px;
+    color: #fff;
+    font-size: 26px;
+  }
+  .profileContainer{
+    margin-top:70px;
+  }
+  .detail{
+    padding-left:12%;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .teamTitle {
+    left:60px;
+    font-size: 7em;
+  }
+  .teamSubTitle{
+    top: 40px;
+    left: 90px;
+    font-size:50px;
+  }
+  .teamDetail{
+    top: 50px;
+    left: 257px;
+    width: 500px;
+    color: #fff;
+    font-size: 18px;
+  }
+  .profileContainer{
+    margin-top:35px;
+  }
+  .teamIn{
+    top: 150px;
+    left: 150px;
+  }
+  .name{
+    font-size:23px;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .teamIn{
+    top: 150px;
+    left: 210px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .teamTitle {
+    top: -10px;
+    left: 15px;
+    font-size: 5.5em;
+  }
+  .teamSubTitle{
+    top: 35px;
+    left: 35px;
+    font-size:30px;
+  }
+  .teamDetail{
+    top: 37px;
+    left: 135px;
+    width: 270px;
+    color: #fff;
+    font-size: 15px;
+  }
+  .profileContainer{
+    margin-top:30px;
+  }
+  .detail{
+    text-align: center;
+  }
+  .name{
+    font-size:24px;
+  }
+  .seo{
+    font-size:24px;
+  }
+  .description{
+    font-size:17px;
+  }
+  .teamIn{
+    position:absolute;
+    z-index: 1;
+    top: 150px;
+    left: 300px;
+  }
+}
+
+@media only screen and (max-width: 525px) {
+  .teamIn{
+    top: 150px;
+    left: 270px;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .teamIn{
+    top: 150px;
+    left: 260px;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  .teamIn{
+    top: 150px;
+    left: 238px;
+  }
+}
+
+@media only screen and (max-width: 420px) {
+  .teamIn{
+    top: 150px;
+    left: 230px;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .teamIn{
+    top: 150px;
+    left: 210px;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .teamTitle {
+    top: -10px;
+    left: 15px;
+    font-size: 4.3em;
+  }
+  .teamSubTitle{
+    top: 20px;
+    left: 30px;
+    font-size: 30px;
+  }
+  .teamDetail{
+    top: 70px;
+    left: 30px;
+    width: 300px;
+    color: #fff;
+    font-size: 14px;
+  }
+}
+
+@media only screen and (max-width: 360px) {
+  .teamIn{
+    top: 150px;
+    left: 200px;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .teamDetail{
+    top: 70px;
+    left: 30px;
+    width: 270px;
+    color: #fff;
+    font-size: 14px;
+  }
+  .teamIn{
+    top: 150px;
+    left: 180px;
+  }
+}
+
+
+/* ============================= title opacity ================*/
+@media only screen and (max-width: 800px) {
+  .teamTitle{
+    opacity:0.6 !important;
+  }
+}

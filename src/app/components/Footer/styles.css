@@ -1,0 +1,28 @@
+footer {
+  position: relative;
+  height: 280px;
+  background-color: #000a25;
+  text-align: center;
+  padding-top: 30px;
+  font-family:Roboto, serif;
+  clear: both;
+}
+
+.title{
+  font-size:26px;
+  color:white;
+  font-weight: bold;
+}
+
+.menu {
+  text-align: left !important;
+}
+
+.footerTitle {
+  font-family: Roboto;
+}
+@media only screen and (max-width: 767px) {
+  .menu {
+    text-align: center !important;
+  }
+}

@@ -1,0 +1,94 @@
+.title {
+  top: -100px;
+  margin-left: -5px;
+  position:relative;
+  color: #52193a;
+  font-family: Montserrat-ExtraBold, serif;
+  font-size: 11.0em;
+  font-weight: bold;
+  line-height: 1;
+  text-align: left;
+  background: -webkit-linear-gradient(298deg, rgba(249, 69, 38, 0.1), rgba(1, 10, 96, 0.2));
+  background: linear-gradient(298deg, rgba(249, 69, 38, 0.3), rgba(1, 10, 96, 0.4));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.subTitle {
+  position:absolute;
+  top: -71px;
+  padding-left: 0.3em;
+  font-size:90px;
+  font-weight:bold;
+  color:white;
+  font-family: Montserrat-ExtraBold,sans-serif;
+  line-height: 1;
+}
+
+.star_trail_container {
+  position: absolute;
+  display: block;
+  width: 90%;
+  margin-left: 10%;
+  height: 100%;
+  margin-top: -150px;
+  padding-left: 80%;
+  padding-top: 50%;
+  overflow: hidden;
+  opacity: 0.5;
+}
+
+.section_description {
+  font-family: "Roboto Thin", sans-serif;
+  font-weight: 100 !important;
+  margin-left: 7px !important;
+}
+
+.polygonContainer {
+  position: absolute;
+  top: 25%;
+  width: 100%;
+  height: 50%;
+}
+
+@media only screen and (max-width: 1200px) {
+  .title {
+    font-size: 9.0em;
+  }
+  .subTitle {
+    font-size: 80px;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .title {
+    font-size: 6em;
+    top: -40px;
+  }
+  .subTitle {
+    font-size: 64px;
+    top: -20px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .title {
+    font-size: 4.5em;
+    top: -50px;
+  }
+  .subTitle {
+    font-size: 45px;
+    top: -40px;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .title {
+    font-size: 2.5em;
+    top: -140px;
+  }
+  .subTitle {
+    font-size: 35px;
+    top: -130px;
+  }
+}

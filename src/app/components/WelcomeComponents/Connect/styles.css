@@ -1,0 +1,171 @@
+/* ------------------------------------------------------------- connect section style -------------------------------------------------------- */
+.connectTitle{
+  /*left: 100px;*/
+  margin-left: -0.3em;
+  text-align: left;
+  font-family: Montserrat-ExtraBold, serif;
+  font-size: 180px;
+  color: rgba(249,69,38,0.3);
+  font-weight: bold;
+  opacity:0.17;
+  background: -webkit-linear-gradient(-78deg, rgba(249,69,38,0.3),rgba(249,69,38,0.3), rgba(1,10,96,0.2), rgba(255,255,255,0));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.connectSubTitle{
+  position:absolute;
+  top: 1.15em;
+  font-size:70px;
+  font-weight:bold;
+  font-family:Montserrat-ExtraBold, serif;
+  color:white;
+  text-align: left;
+}
+
+.connectIcon{
+  font-size:60px;
+  color:white;
+}
+
+.signTitle{
+  font-size:35px;
+  font-family:Montserrat-ExtraBold,serif;
+  color:white;
+}
+.signDetail{
+  color:white;
+  font-size:15px;
+  /*font-family:Myriad Pro Regular, serif;*/
+}
+.signInput{
+  border-radius: 50px;
+  height: 36px;
+  background: transparent;
+  padding-left: 13px;
+  color: #fff;
+  margin-right:10px;
+  width: 100%;
+}
+.signInputBtn {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.signInputContainer {
+  padding-right: 130px;
+}
+
+/* --------------------------------------- connect style according to screen size -------------------------------------------------*/
+@media only screen and (min-width: 1200px) {
+
+  .connectIcon{
+    font-size:70px;
+    color:white;
+  }
+  .lastIcon{
+    width:75%;
+    height:60%;
+    vertical-align:middle;
+    margin-top: 10px;
+  }
+}
+
+
+@media only screen and (max-width: 1200px) {
+  .connectTitle {
+    font-size: 8em;
+  }
+  .connectSubTitle{
+    /*left: 135px;*/
+    font-size:55px;
+    top: 1.0em;
+  }
+  .connectIcon{
+    font-size:70px;
+    color:white;
+  }
+  .lastIcon{
+    width:120%;
+    height:60%;
+    vertical-align:middle;
+    margin-top: 10px;
+  }
+  .signTitle{
+    font-size:30px;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .connectTitle {
+    /*left:55px;*/
+    font-size: 7em;
+  }
+  .connectSubTitle{
+    /*left: 90px;*/
+    font-size:50px;
+  }
+  .connectIcon{
+    font-size:55px;
+    color:white;
+  }
+  .lastIcon{
+    width:120%;
+    height:60%;
+    vertical-align:middle;
+    margin-top: 10px;
+  }
+  .signTitle{
+    font-size:25px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .connectTitle {
+    /*left:20px;*/
+    font-size: 4.5em;
+    margin-left: 0em;
+  }
+  .connectSubTitle{
+    /*left: 40px;*/
+    font-size:30px;
+    left: 1.6em;
+  }
+  .connectIcon{
+    font-size:40px;
+    color:white;
+  }
+  .lastIcon{
+    width:120%;
+    height:60%;
+    vertical-align:middle;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .connectTitle {
+    /*left:20px;*/
+    font-size: 4.1em;
+    margin-left: 0px;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .connectTitle {
+    /*left:20px;*/
+    font-size: 3.5em;
+    margin-left: 0px;
+  }
+  .connectSubTitle{
+    font-size: 25px;
+    left: 30px;
+    top: 23px;
+  }
+}
+
+/* ============================= title opacity ================*/
+@media only screen and (max-width: 800px) {
+  .connectTitle{
+    opacity:0.6 !important;
+  }
+}

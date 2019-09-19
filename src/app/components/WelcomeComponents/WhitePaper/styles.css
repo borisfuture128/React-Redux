@@ -1,0 +1,195 @@
+/*------------------------ WhitePaper styles -------------------------------*/
+.whitepaperTitle{
+  position:absolute;
+  top: 1210px;
+  left: 100px;
+  font-family: Montserrat-ExtraBold ,serif;
+  font-size: 153px;
+  color: rgba(249,69,38,0.4);
+  opacity:0.37;
+  background: -webkit-linear-gradient(-80deg, rgba(249,69,38,0.4),rgba(249,69,38,0.4), rgba(1,10,96,0.2),rgba(255,255,255,0));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.whitepaperSubTitle{
+  position:absolute;
+  top: 1280px;
+  left: 125px;
+  font-size:70px;
+  font-weight:bold;
+  color:white;
+  font-family: Montserrat-ExtraBold ,serif;
+}
+.content{
+  text-align: left;
+  padding-top: 220px;
+  padding-bottom: 20%;
+  margin-left:100px;
+}
+
+.description{
+  font-size:30px;
+  color:white;
+  padding-top: 170px;
+  font-family:Roboto Regular, sans-serif;
+}
+
+.buttonDownload{
+  margin-top: 100px;
+  background: transparent;
+  color: #fff;
+  border-radius: 50px;
+  border-width: 3px;
+  padding: 2px 15px;
+  width: 400px;
+  height: 50px;
+  font-size: 25px;
+  font-family: Montserrat Light, sans-serif;
+}
+
+/*-----------------------------------------------  styles according to screen ------------------------------------*/
+@media only screen and (max-width: 1200px) {
+  .whitepaperTitle{
+    top: 1000px;
+    left: 90px;
+    font-size: 125px;
+  }
+  .whitepaperSubTitle{
+    top: 1055px;
+    left: 120px;
+    font-size:60px;
+  }
+  .content{
+    text-align: left;
+    padding-top: 145px;
+  }
+  .description{
+    font-size:27px;
+    color:white;
+    padding-top: 170px;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .whitepaperTitle{
+    top: 566px;
+    left: 80px;
+    font-size: 94px;
+  }
+  .whitepaperSubTitle{
+    top: 610px;
+    left: 108px;
+    font-size: 40px;
+  }
+  .content{
+    text-align: left;
+    padding-top: 130px;
+  }
+  .description{
+    font-size:24px;
+    color:white;
+    padding-top: 170px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .whitepaperTitle{
+    top: 560px;
+    left: 15px;
+    font-size: 4em;
+  }
+  .whitepaperSubTitle{
+    top: 586px;
+    left: 30px;
+    font-size: 30px;
+  }
+  .content{
+    text-align: left;
+    padding-top: 0px;
+    margin-left: auto;
+  }
+  .description{
+    font-size: 20px;
+    color: #fff;
+    padding-top: 115px;
+  }
+  .buttonDownload{
+    margin-top: 100px;
+    background: transparent;
+    color: #fff;
+    border-radius: 50px;
+    border-width: 3px;
+    padding: 2px 15px;
+    width: 320px;
+    height: 40px;
+    font-size: 20px;
+    font-family: Montserrat Regular, sans-serif;
+  }
+}
+
+@media only screen and (max-width: 490px) {
+  .whitepaperTitle{
+    top: 562px;
+    left: 15px;
+    font-size: 3.5em;
+  }
+  .whitepaperSubTitle{
+    top: 582px;
+    left: 30px;
+    font-size: 30px;
+  }
+}
+
+@media only screen and (max-width: 430px) {
+  .whitepaperTitle{
+    top: 570px;
+    left: 15px;
+    font-size: 3.2em;
+  }
+  .whitepaperSubTitle{
+    top: 589px;
+    left: 30px;
+    font-size: 27px;
+  }
+}
+
+@media only screen and (max-width: 394px) {
+  .whitepaperTitle{
+    top: 580px;
+    left: 15px;
+    font-size: 45px;
+  }
+  .whitepaperSubTitle{
+    top: 598px;
+    left: 30px;
+    font-size: 22px;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .whitepaperTitle{
+    top: 580px;
+    left: 15px;
+    font-size: 40px;
+  }
+  .whitepaperSubTitle{
+    top: 594px;
+    left: 30px;
+    font-size: 22px;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .whitepaperTitle{
+    top: 584px;
+    left: 15px;
+    font-size: 41px;
+  }
+  .whitepaperSubTitle{
+    top: 598px;
+    left: 30px;
+    font-size: 25px;
+  }
+}
+

@@ -255,7 +255,7 @@
     "method-override": "^2.3.7",
     "minimist": "1.2.0",
     "mongoose": "^4.7.6",
-    "nconf": "^0.8.4",
+    "nconf": "^0.11.4",
     "nodemailer": "^3.1.4",
     "nodemailer-sendgrid-transport": "^0.2.0",
     "react": "16.2.0",
